@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ApiService {
-private urlapi ='https://localhost:44334/ConversionDatos';
+private urlapi ='https://apilogisticatransporte.grupoafin.com/ConversionDatos';
   constructor(private http: HttpClient) { }
 
   public GetData(): Observable<any>{
